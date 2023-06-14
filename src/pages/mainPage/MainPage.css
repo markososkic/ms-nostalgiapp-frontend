@@ -94,7 +94,7 @@
 
 .status .leftBox input::placeholder {
     color: whitesmoke;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     opacity: 0.5;
 }
 
@@ -152,9 +152,6 @@
     z-index: 50;
 }
 
-.card:hover {
-    transform: rotate(2deg);
-}
 
 
 
@@ -181,6 +178,12 @@
 
 
 
+
+@media(min-width:1366px) {
+    .card:hover {
+        transform: rotate(2deg);
+    }
+}
 
 @media (max-width:1024px) {
 

@@ -11,7 +11,7 @@ export default function AddMemory() {
     const [url, setUrl] = useState("");
     const [heading, setHeading] = useState("");
     const [location, setLocation] = useState("");
-    const [date, setDate] = useState("");
+    const [date, setDate] = useState("01 Jan 2023");
     const [description, setDescription] = useState("");
     const [placeholder, setPlaceholder] = useState("Upload an image");
 
@@ -64,9 +64,9 @@ export default function AddMemory() {
                         id="memory"
                         accept="image/jpeg"></input>
                 </div>
-                <input onChange={(e) => setHeading(e.target.value)} type="text" placeholder="Memory title (max 20 characters)" value={heading} required></input>
+                <input onChange={(e) => setHeading(e.target.value)} type="text" placeholder="Memory title" value={heading} required></input>
                 <input onChange={(e) => setLocation(e.target.value)} type="text" placeholder="Memory location" value={location} required></input>
-                <input onChange={(e) => { setDate(e.target.value) }} type="date" placeholder="Memory date" value={date} required></input>
+                <input onChange={(e) => setDate(e.target.value)} type="date" value={date} required></input>
                 <textarea onChange={(e) => setDescription(e.target.value)} placeholder="Memory description" rows="5" value={description} required></textarea>
                 {heading && location && date && description && <button onClick={handleClick}>Save!</button>}
             </form>

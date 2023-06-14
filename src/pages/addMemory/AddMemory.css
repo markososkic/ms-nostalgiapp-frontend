@@ -73,7 +73,7 @@ section#light.addMemory-panel form input[type="file"] {
     height: 2rem;
     padding-left: 1rem;
     text-indent: 0;
-    min-width: 100%;
+    width: 100%;
 }
 
 section#light.addMemory-panel form textarea {
@@ -111,7 +111,7 @@ form button:hover {
 }
 
 a.close {
-    color: #059c9c;
+    color: #21758d;
     font-size: 0.8rem;
     position: absolute;
     right: 6vmax;
@@ -165,6 +165,7 @@ section#dark.addMemory-panel form input {
 section#dark.addMemory-panel form input::placeholder {
     color: whitesmoke;
     font-family: 'Rubik', sans-serif;
+    font-size: 0.8rem;
     opacity: 0.5;
 }
 
@@ -183,6 +184,7 @@ section#dark.addMemory-panel form input[type="file"] {
     height: 2rem;
     padding-left: 1rem;
     text-indent: 0;
+    width: 100%;
 }
 
 section#dark.addMemory-panel form textarea {

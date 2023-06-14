@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ms-nostalgiapp-frontend/static/css/main.4b50567e.css",
-    "main.js": "/ms-nostalgiapp-frontend/static/js/main.b3f53e84.js",
+    "main.js": "/ms-nostalgiapp-frontend/static/js/main.070ffb09.js",
     "static/media/default.png": "/ms-nostalgiapp-frontend/static/media/default.ada8269eefbc176410a6.png",
     "index.html": "/ms-nostalgiapp-frontend/index.html",
     "main.4b50567e.css.map": "/ms-nostalgiapp-frontend/static/css/main.4b50567e.css.map",
-    "main.b3f53e84.js.map": "/ms-nostalgiapp-frontend/static/js/main.b3f53e84.js.map"
+    "main.070ffb09.js.map": "/ms-nostalgiapp-frontend/static/js/main.070ffb09.js.map"
   },
   "entrypoints": [
     "static/css/main.4b50567e.css",
-    "static/js/main.b3f53e84.js"
+    "static/js/main.070ffb09.js"
   ]
 }

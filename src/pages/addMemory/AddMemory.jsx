@@ -13,7 +13,7 @@ export default function AddMemory() {
     const [location, setLocation] = useState("");
     const [date, setDate] = useState("");
     const [description, setDescription] = useState("");
-    const [placeholder, setPlaceholder] = useState("Upload an image of your memory");
+    const [placeholder, setPlaceholder] = useState("Upload an image");
 
     const params = useParams();
     const navigate = useNavigate();
@@ -28,7 +28,7 @@ export default function AddMemory() {
             body: formData
         }).then(res => res.json())
             .then(resBody => console.log(resBody))
-        setPlaceholder("Your memory image has been uploaded.")
+        setPlaceholder("Image uploaded")
     }
 
     async function handleClick(e) {
@@ -64,10 +64,10 @@ export default function AddMemory() {
                         id="memory"
                         accept="image/jpeg"></input>
                 </div>
-                <input onChange={(e) => setHeading(e.target.value)} type="text" placeholder="Enter memory name (max 20 characters)" value={heading} required></input>
-                <input onChange={(e) => setLocation(e.target.value)} type="text" placeholder="Enter memory location" value={location} required></input>
-                <input onChange={(e) => { setDate(e.target.value) }} type="date" value={date} required></input>
-                <textarea onChange={(e) => setDescription(e.target.value)} placeholder="Describe the memory..." rows="5" value={description} required></textarea>
+                <input onChange={(e) => setHeading(e.target.value)} type="text" placeholder="Memory title (max 20 characters)" value={heading} required></input>
+                <input onChange={(e) => setLocation(e.target.value)} type="text" placeholder="Memory location" value={location} required></input>
+                <input onChange={(e) => { setDate(e.target.value) }} type="date" placeholder="Memory date" value={date} required></input>
+                <textarea onChange={(e) => setDescription(e.target.value)} placeholder="Memory description" rows="5" value={description} required></textarea>
                 {heading && location && date && description && <button onClick={handleClick}>Save!</button>}
             </form>
             <Link to={`/ms-nostalgiapp-frontend/main/${params.id}`} className="close">Close!</Link>

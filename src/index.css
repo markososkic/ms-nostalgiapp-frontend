@@ -2,16 +2,18 @@
 
 
   * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
 
   html,
   #root {
-      font-family: 'Rubik', sans-serif;
-      height: 100%;
-      width: 100%;
+    font-family: 'Rubik', sans-serif;
+    height: 100%;
+    overscroll-behavior: none;
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
   }
 
   html::-webkit-scrollbar {

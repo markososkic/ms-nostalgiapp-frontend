@@ -54,7 +54,7 @@ section#light.addMemory-panel form input {
 section#light.addMemory-panel form input::placeholder {
     color: #181818;
     font-family: 'Rubik', sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     opacity: 0.5;
 }
 
@@ -73,7 +73,7 @@ section#light.addMemory-panel form input[type="file"] {
     height: 2rem;
     padding-left: 1rem;
     text-indent: 0;
-    width: 100%;
+    min-width: 100%;
 }
 
 section#light.addMemory-panel form textarea {
@@ -91,6 +91,7 @@ section#light.addMemory-panel form textarea {
 section#light.addMemory-panel form textarea::placeholder {
     color: black;
     font-family: 'Rubik', sans-serif;
+    font-size: 0.8rem;
     opacity: 0.5;
 }
 

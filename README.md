@@ -9,7 +9,10 @@
 
 
 ## About The App
-This is an easy-to-use, personal memory keeper.
+
+A personal memory keeper.<br>
+Each memory consists of an image, a title, a location, a date, and a description.<br>
+Users can loop through the memories using the search bar.
 
 ![mockup](public/images/mock-up-01-v01.png)
 

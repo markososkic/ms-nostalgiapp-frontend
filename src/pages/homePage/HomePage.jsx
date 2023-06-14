@@ -55,7 +55,7 @@ export default function HomePage() {
                 <input onChange={(e) => setLocation(e.target.value)} type="text" name="location" placeholder="Location"></input>
                 <button onClick={handleRegister}>Sign Up</button>
             </form>
-            <Link to="/ms-nostalgiapp-frontend/login">Already have a Nostalgiapp account? Click here to login.</Link>
+            <Link to="/ms-nostalgiapp-frontend/login">Click here to login.</Link>
         </section>
     )
 }

@@ -57,7 +57,7 @@ export default function LoginPage() {
                 <input onChange={(e) => setPassword(e.target.value)} type="password" name="password" placeholder="Password"></input>
                 <button onClick={handleLogin}>Login</button>
             </form>
-            <Link to="/ms-nostalgiapp-frontend/">Don't have a Nostalgiapp account? Click here to sign up.</Link>
+            <Link to="/ms-nostalgiapp-frontend/">Click here to sign up.</Link>
         </section>
     )
 }
